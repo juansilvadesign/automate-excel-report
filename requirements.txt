@@ -1,0 +1,27 @@
+# Excel Automation Project Requirements
+# =================================
+# 
+# Core Dependencies
+# -----------------
+# Main package for reading, writing, and manipulating Excel files (.xlsx format)
+# Provides support for charts, formulas, formatting, and styling
+openpyxl>=3.1.0
+
+# Optional Dependencies (uncomment if needed)
+# ------------------------------------------
+# For converting Python scripts to standalone executables
+# pyinstaller>=5.0
+
+# For advanced data manipulation and analysis
+# pandas>=1.5.0
+
+# For numerical computations (dependency of pandas)
+# numpy>=1.20.0
+
+# Installation Instructions:
+# -------------------------
+# pip install -r requirements.txt
+#
+# To create executable:
+# pip install pyinstaller
+# pyinstaller --onefile py-to-exe.py
