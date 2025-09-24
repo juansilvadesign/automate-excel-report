@@ -2,7 +2,6 @@
 # Purpose: Takes raw data and adds SUM formulas at the bottom of each column
 
 # Reads from raw_data.xlsx
-# Expects a sheet named 'Report'
 # Adds =SUM() formulas below the last row of data
 # Applies 'Currency' formatting to the totals
 # Saves as report.xlsx

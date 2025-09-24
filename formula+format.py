@@ -1,7 +1,7 @@
 # Complete Automation (Original Version)
 # Purpose: Does everything - charts, formulas, and formatting in one go
 
-# Same functionality as the fixed py-to-exe.py but with hardcoded values
+# Same functionality as the main.py
 # Creates bar chart, adds formulas, applies formatting
 # Has the same issues we fixed (hardcoded sheet name, color format)
 

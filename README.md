@@ -53,7 +53,7 @@ python create_sample_data.py
 
 4. Run the main automation:
 ```bash
-python py-to-exe.py
+python main.py
 ```
 
 ## 📁 Project Structure
@@ -61,7 +61,7 @@ python py-to-exe.py
 ```
 📁 Automate Excel Report/
 ├── 📄 raw_data.xlsx           # Input data (sample included)
-├── 📄 py-to-exe.py            # Main automation script
+├── 📄 main.py            # Main automation script
 ├── 📄 formula.py              # Formulas only
 ├── 📄 format.py               # Formatting only  
 ├── 📄 formula+format.py       # Complete automation
@@ -93,7 +93,7 @@ Your Excel file must follow this structure:
 
 ### 1. Complete Automation (Recommended)
 ```bash
-python py-to-exe.py
+python main.py
 ```
 - Interactive month input
 - Creates bar charts, formulas, and applies formatting
@@ -137,7 +137,7 @@ Convert to standalone .exe file:
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile py-to-exe.py
+pyinstaller --onefile main.py
 ```
 
 ## 📚 Learning Outcomes

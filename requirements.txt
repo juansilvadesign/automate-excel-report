@@ -24,4 +24,4 @@ openpyxl>=3.1.0
 #
 # To create executable:
 # pip install pyinstaller
-# pyinstaller --onefile py-to-exe.py
+# pyinstaller --onefile main.py
